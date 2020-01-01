@@ -1,11 +1,6 @@
-# react-pll 
+# react-pll [![gh](https://github.com/abranhe/react-pll/workflows/build/badge.svg)](https://github.com/abranhe/react-pll/actions) [![travis](https://img.shields.io/travis/abranhe/react-pll)](https://travis-ci.org/abranhe/react-pll) [![license](https://img.shields.io/github/license/abranhe/react-pll.svg)](https://github.com/abranhe/react-pll/blob/master/license) [![npm](https://img.shields.io/npm/v/react-pll.svg?logo=npm)](https://github.com/abranhe/react-pll)
 
 [<img src="https://github.com/abranhe/programming-languages-logos/blob/master/src/programming-languages.gif?raw=true" align="right" width="100">](https://languages.abranhe.com)
-
-[![gh](https://github.com/abranhe/react-pll/workflows/build/badge.svg)](https://github.com/abranhe/react-pll/actions)
-[![travis](https://img.shields.io/travis/abranhe/react-pll)](https://travis-ci.org/abranhe/react-pll)
-[![license](https://img.shields.io/github/license/abranhe/react-pll.svg)](https://github.com/abranhe/react-pll/blob/master/license)
-[![npm](https://img.shields.io/npm/v/react-pll.svg?logo=npm)](https://github.com/abranhe/react-pll)
 
 > A React component for [programming-languages-logos](https://github.com/abranhe/programming-languages-logos).
 
@@ -33,7 +28,7 @@ $ npm install react-pll
 ###### ⚠️ DEPRECATED
 
 ```
-$ npm install @programming-languages-logos@react
+$ npm install @programming-languages-logos/react
 ```
 </details>
 
