@@ -1,6 +1,6 @@
 {
   "name": "react-pll",
-  "version": "0.0.0-beta",
+  "version": "0.0.1-alpha.1",
   "description": "Programming Languages Logos Component for React",
   "main": "build/index.js",
   "license": "MIT",
@@ -15,7 +15,7 @@
     "node": ">=8"
   },
   "files": [
-    "build"
+    "build/index.js"
   ],
   "scripts": {
     "start": "webpack --watch",
