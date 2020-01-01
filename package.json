@@ -1,6 +1,6 @@
 {
   "name": "react-pll",
-  "version": "0.0.0-alpha",
+  "version": "0.0.0-beta",
   "description": "Programming Languages Logos Component for React",
   "main": "build/index.js",
   "license": "MIT",
