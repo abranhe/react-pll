@@ -7,7 +7,7 @@ module.exports = {
 		libraryTarget: 'umd',
 		library: 'react-pll',
 		filename: 'index.js',
-		path: path.resolve(__dirname, 'build'),
+		path: path.resolve(__dirname, 'dist'),
 		globalObject: 'this'
 	},
 	externals: {
