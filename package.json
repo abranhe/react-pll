@@ -1,0 +1,72 @@
+{
+  "name": "react-pll",
+  "version": "0.0.0-alpha",
+  "description": "Programming Languages Logos Component for React",
+  "main": "build/index.js",
+  "license": "MIT",
+  "repository": "abranhe/react-pll",
+  "homepage": "https://p.abranhe.com/react-pll",
+  "author": {
+    "name": "Abraham Hernandez",
+    "email": "abraham@abranhe.com",
+    "url": "https://abranhe.com"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "files": [
+    "build"
+  ],
+  "scripts": {
+    "start": "webpack --watch",
+    "build": "webpack",
+    "gen": "babel-node scripts/generate.js",
+    "test": "xo && jest"
+  },
+  "keywords": [
+    "programming-languages-logos",
+    "reactjs",
+    "react",
+    "logos",
+    "svg"
+  ],
+  "peerDependencies": {
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0"
+  },
+  "dependencies": {
+    "programming-languages-logos": "^0.0.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/node": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "eslint-config-xo-react": "^0.20.0",
+    "eslint-plugin-react": "^7.17.0",
+    "eslint-plugin-react-hooks": "^2.3.0",
+    "jest": "^24.9.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-test-renderer": "^16.12.0",
+    "svg-url-loader": "^3.0.0",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.7",
+    "xo": "^0.25.3"
+  },
+  "xo": {
+    "extends": "xo-react",
+    "rules": {
+      "camelcase": 0,
+      "no-undef": 0,
+      "array-callback-return": 0
+    }
+  },
+  "jest": {
+    "moduleNameMapper": {
+      "\\.(svg)$": "<rootDir>/tests/__mocks__/file-mock.js"
+    }
+  }
+}
