@@ -7,7 +7,9 @@
 [![license](https://img.shields.io/github/license/abranhe/react-pll.svg)](https://github.com/abranhe/react-pll/blob/master/license)
 [![npm](https://img.shields.io/npm/v/react-pll.svg?logo=npm)](https://github.com/abranhe/react-pll)
 
-> A React component for [programming-languages-logos](https://github.com/abranhe/programming-languages-logos)
+> A React component for [programming-languages-logos](https://github.com/abranhe/programming-languages-logos).
+
+I currently use this package on [languages.abrannhe.com](https://languages.abrannhe.com)
 
 - [Install](#install)
 - [Usage](#usage)
@@ -35,13 +37,13 @@ $ npm install @programming-languages-logos@react
 
 Using [Github Registry](https://github.com/features/packages)?
 
-```js
+```
 $ npm install abranhe@react-pll
 ```
 
 ## Usage
 
-```
+```js
 import React from 'react';
 import Pll from 'react-pll'
 
@@ -60,16 +62,16 @@ export default () => {
 
 A cheatsheet of all available props.
 
-|Prop    |Type      |Default|Description|
-|:------ |:-------- |:----- |:--------- |
-|language|`string`  |`cpp`  |The programming language logo|
-|fallback|`any|node`|`null` |Optional fallback tha renders if the given language doesn't exist|
+| Prop     | Type       | Default | Description|
+| :------- | :--------- | :------ | :---------- |
+| language | `string`  | `cpp`    | The programming language logo|
+| fallback | `any`     | `null`   | Optional fallback tha renders if the given language doesn't exist|
 
 You can also add all image regular images props.
 
 ###### Example:
 
-```
+```js
 <Pll language="swift" alt="The Swift Logo">
 ```
 
