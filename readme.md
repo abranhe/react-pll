@@ -67,7 +67,7 @@ A cheatsheet of all available props.
 | language | `string`  | `cpp`    | The programming language logo|
 | fallback | `any`     | `null`   | Optional fallback tha renders if the given language doesn't exist|
 
-You can also add all image regular images props.
+You can also add the images props.
 
 ###### Example:
 
